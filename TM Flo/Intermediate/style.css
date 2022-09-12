@@ -1,3 +1,14 @@
+.container {
+    border: 1px solid;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+}
+
 #title {
     font-size: 30px;
  
@@ -10,13 +21,61 @@
 }
 
 .tableTitle {
-    font-size: 12px;
-}
-
-td {
-    border-bottom: 1px solid black;
+    font-size: 10px;
 }
 
 body {
-    font-size: 16px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rowLine {
+    border-bottom: 1px solid black;
+}
+
+#tableTitle1, #tableTitle2, #tableTitle3 {
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+table{
+    margin-right: 0px;
+    width: 100%;
+}
+
+.end{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+.table {
+    border-collapse: collapse;
+    border-top: 10px solid;
+  }
+  .tr { 
+    border: solid;
+    border-width: 1px 0;
+  }
+.table2 {
+    border-collapse: collapse;
+  }
+  .upper{
+    border-top: 10px solid
+
+  }
+
+  .label{
+    font-size: 14px;
+ }
+ .up{
+    border-top: solid 1px;
+ }
+.down{
+    border-bottom: 1px solid;
+}
+.middle{
+    border-bottom: 5px solid;
 }
