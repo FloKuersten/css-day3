@@ -1,3 +1,5 @@
+
+
 .container {
     border: 1px solid;
     width: 400px;
@@ -11,7 +13,9 @@
 .marge {
     padding-left: 20px;
   }
-
+p{
+    margin: 0;
+}
 table{
     width: 100%;
     margin-right: 0px;
@@ -19,16 +23,34 @@ table{
 
 .end{
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 0px;
 }
 .table {
     border-collapse: collapse;
     border-top: 10px solid;
   }
-  tr { 
+  .tr { 
     border: solid;
     border-width: 1px 0;
   }
 .table2 {
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    border-collapse: collapse;
   }
+  .upper{
+    border-top: 10px solid
+
+  }
+
+  .label{
+    font-size: 14px;
+ }
+ .up{
+    border-top: solid 1px;
+ }
+.down{
+    border-bottom: 1px solid;
+}
+.middle{
+    border-bottom: 5px solid;
+}
