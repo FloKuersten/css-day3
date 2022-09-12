@@ -58,14 +58,61 @@ body {
   	color: black;
 
 }
+.box-home
+ {
+	background: rgb(0,0,0);
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(89,86,81,1) 100%);
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	color: #fff;
+	margin: 0 auto;
+	transition: transform 2s; /* Animation */
 
+
+ }
+
+ #box-home1 {
+	left: 24%;
+	position: absolute;
+
+ }
+ #box-home2 {
+	left: 42%;
+
+	position: absolute;
+
+}
+#box-home3 {
+	left: 60%;
+	align-self: center;
+	position: absolute;
+
+
+}
+
+ .headBox {
+	padding-top: 10px;
+ }
+
+ .imgBox {
+	padding-top: 20px;
+	max-height: 50%;
+	max-width: 50%;
+	align-content: center;
+ }
+
+ .box-home:hover {
+	transform: scale(1.19); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ }
 /*__________ Content Styling End __________ */
 
 /*__________ Footer Styling Start __________ */
 footer {
-	height: 300px;
+	height: 900px;
 	text-align: center;
 	padding:  25px;
+	padding-top: 20rem;
 
 }
 /*__________ Footer Styling End __________ */
