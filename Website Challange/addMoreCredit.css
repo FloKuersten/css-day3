@@ -1,5 +1,7 @@
 #logo {
 	height: 100px;
+    border-radius: 50%;
+
 }
 #container {
 	clear:  both;
@@ -15,6 +17,10 @@
     position: relative;
     width: 50%;
     height: 70%;
+    border: double orange 5px;
+    box-shadow: black 10px 8px 6px 4px;
+
+
 	
 }
 
@@ -39,14 +45,17 @@ nav{
     flex-wrap: wrap;
     padding: 20px;
     background-color: black;
-    border:orange 5px solid;
+    border:double orange 5px;
     width: 60%;
     height: 80%;
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 35% 0 0 35%;
     font-size: 15px;
-    box-shadow: 45deg black 10px 8px 6px 4px 2px 1px;
+    box-shadow: black 10px 8px 6px 4px;
+    padding-right: 10px;
+    margin-top: 50px;
+
 
 
 

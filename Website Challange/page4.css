@@ -63,6 +63,8 @@ form {
     padding: 15px;
     border-radius: 25px;
     color: orange;
+    box-shadow: black 10px 8px 6px 4px;
+
 
     
 }
