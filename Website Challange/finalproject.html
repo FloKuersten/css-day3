@@ -4,58 +4,132 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="finalproject.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <title>My Website</title>
-  </head>
 
-  <body>
-    <header>
-      <a id="logoLink" href="finalproject.html">
-        <img
-          id="logo"
-          src="https://www.pngkey.com/png/full/276-2769186_greasy-monkey-transmission-greasy-monkey-transmission-funny-monkey.png"
-          alt="logo"
-        />
-      </a>
-      <nav>
-        <ul class="topnav">
-          <li><a class="navLink" href="page1.html">Home</a></li>
-          <li><a class="navLink" href="page2.html">Services</a></li>
-          <li><a class="navLink" href="page3.html">Blog</a></li>
-          <li><a class="navLink" href="page4.html">About Us</a></li>
-          <li><a class="navLink" href="page5.html">Contact Us</a></li>
-        </ul>
-        <!-- href and text for nav links need to be filled in -->
-      </nav>
-    </header>
+      </head>
+    
+      <body>
+        <header>
+          <a id="logoLink" href="finalproject.html">
+            <img
+              id="logo"
+              src="https://www.pngkey.com/png/full/276-2769186_greasy-monkey-transmission-greasy-monkey-transmission-funny-monkey.png"
+              alt="logo"
+            />
+          </a>
+          <nav>
+            <ul class="topnav">
+              <li><a class="navLink" href="page1.html">Home</a></li>
+              <li><a class="navLink" href="page2.html">Services</a></li>
+              <li><a class="navLink" href="page3.html">Blog</a></li>
+              <li><a class="navLink" href="page4.html">About Us</a></li>
+              <li><a class="navLink" href="page5.html">Contact Us</a></li>
+            </ul>
+            <!-- href and text for nav links need to be filled in -->
+          </nav>
+        </header>
+    
+        <div id="container">
+          <!-- PAGE CONTENT GOES HERE	 -->
+        <!-- CARIUSEL START -->
 
-    <div id="container">
-      <!-- PAGE CONTENT GOES HERE	 -->
-	  <h2>Lorem Ipsum</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi odio
-        accusantium sequi aperiam nam esse quidem dicta. Delectus corrupti
-        eveniet quae aut ipsum vel incidunt tenetur fugit veniam, praesentium
-        dolores illum. Saepe omnis error, tempore, fugit voluptatum amet, sit
-        alias fugiat dignissimos aspernatur temporibus dolorum earum. Eum
-        molestiae animi nulla doloribus distinctio fuga praesentium alias odit
-        saepe quia tenetur voluptates ut, suscipit eaque vel obcaecati debitis
-        minus culpa odio voluptatibus quod voluptatem nobis consectetur. Numquam
-        esse eum voluptatem. Architecto, rem neque pariatur aliquam repellendus
-        officia maiores saepe. Quo fuga dolorum deserunt, nam fugit laboriosam,
-        quam odit consequatur accusamus laudantium tempore nesciunt. Mollitia
-        deserunt minima distinctio est inventore fugit itaque tempora. Nisi
-        itaque reprehenderit quisquam deserunt hic omnis dignissimos, ex modi
-        eaque dolores doloribus voluptate cumque fuga corporis labore nulla
-        recusandae ut similique architecto, id delectus. Accusantium cupiditate
-        inventore esse incidunt minima cum similique, exercitationem sit alias
-        velit corrupti nemo?
-      </p>
-    </div>
 
-    <footer>
-		<h6>Copyright 2023 &#169;</h6>
-      <p>You can read all our terms and conditions <a href="#">here</a></p>
-      <!-- href for tos need to be filled in -->
-    </footer>
-  </body>
-</html>
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+        <img id="start-pic1" src="start-pic1.png" alt="Sale Smartphone Picture">
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+<!-- CAROUSEL END -->
+          <p class="imgParagraph">
+            <h2>Now on SALE</h2>
+  
+            <img id="imgSale" src="start-pic1.png" alt="Sale Smartphone Picture">
+      
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi odio
+            accusantium sequi aperiam nam esse quidem dicta. Delectus corrupti
+            eveniet quae aut ipsum vel incidunt tenetur fugit veniam, praesentium
+            dolores illum. Saepe omnis error, tempore, fugit voluptatum amet, sit
+            alias fugiat dignissimos aspernatur temporibus dolorum earum. Eum
+            molestiae animi nulla doloribus distinctio fuga praesentium alias odit
+            saepe quia tenetur voluptates ut, suscipit eaque vel obcaecati debitis
+            minus culpa odio voluptatibus quod voluptatem nobis consectetur. Numquam
+            esse eum voluptatem. Architecto, rem neque pariatur aliquam repellendus
+            officia maiores saepe. Quo fuga dolorum deserunt, nam fugit laboriosam,
+            quam odit consequatur accusamus laudantium tempore nesciunt. Mollitia
+            deserunt minima distinctio est inventore fugit itaque tempora. Nisi
+            itaque reprehenderit quisquam deserunt hic omnis dignissimos, ex modi
+            eaque dolores doloribus voluptate cumque fuga corporis labore nulla
+            recusandae ut similique architecto, id delectus. Accusantium cupiditate
+            inventore esse incidunt minima cum similique, exercitationem sit alias
+            velit corrupti nemo?
+          </p>
+          
+        </div>
+    
+        <footer>
+        <h6>Copyright 2023 &#169;</h6>
+          <p>You can read all our terms and conditions <a href="#">here</a></p>
+          <!-- href for tos need to be filled in -->
+        </footer>
+      </body>
+    </html>
