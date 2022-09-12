@@ -2,33 +2,33 @@
     border: 1px solid;
     width: 400px;
     padding: 5px;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
     margin: auto;
 }
 .marge {
-    padding: 20px;
+    padding-left: 20px;
   }
-.table {
-    border-top: 10px solid;
-}
+
 table{
     width: 100%;
+    margin-right: 0px;
 }
 
 .end{
     text-align: center;
-    margin-top: 3px;
 }
 .table {
     border-collapse: collapse;
+    border-top: 10px solid;
   }
   tr { 
     border: solid;
     border-width: 1px 0;
   }
-  .table2 {
-    border: 1px solid 0;
+.table2 {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
   }
-  
